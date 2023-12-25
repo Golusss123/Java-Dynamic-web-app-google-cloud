@@ -14,7 +14,7 @@
 
 module "cicd_pipeline" {
   source                = "../../modules/cicd"
-  project_id            = var.project_id
+  project_id            = var.hale-post-409007
   run_service_name      = var.run_service_name
   github_repository_url = var.github_repository_url
 }
